@@ -1,0 +1,12 @@
+{
+    "name": "root/skwebapp-api",
+    "description": "'The best we ar'",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Naima SEL",
+            "email": "naima@gmail.com"
+        }
+    ],
+    "require": {}
+}

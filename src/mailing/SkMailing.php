@@ -30,8 +30,6 @@ return $http_responder['status'];
 }
 }
 
-
-
 // *************** Subscription *****************
 public function subscribe_to_ml($data = null, $ml_id = null)
 {
