@@ -9,7 +9,7 @@
         }
     ],
     "autoload": {
-        "psr-4" : {"mailing\\" : "src"}
+        "psr-4" : {"SkMailing\\" : "src"}
     },
     "minimum-stability": "stable",
     "require": {}
