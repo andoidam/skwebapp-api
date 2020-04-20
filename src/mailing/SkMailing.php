@@ -30,7 +30,7 @@ class SkMailing
             return $http_responder['status'];        
         }
     }
-// test commit.
+
     //********************* Subscription ************************
     public function subscribe_to_ml($data = null, $ml_id = null)
     {
