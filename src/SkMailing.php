@@ -6,7 +6,7 @@ class SkMailing
 {
 
     //*********************** Send Mail ************************
-    public function sendmail($data = null, $message_id = null)
+    public function sendmail($data, $message_id, $response_format = 'json')
     {
         if ($data != null && $message_id != null){
 
@@ -25,14 +25,16 @@ class SkMailing
                 //debug($http_responder);
                 //$this->log_info($http_responder);
                 curl_close($curl_handler);
-                $http_responder = json_decode($http_responder, true);
-
-            return $http_responder['status'];        
+                if($response_format == 'json'){
+                    return $http_responder;
+                }else{
+                    return json_decode($http_responder, true);
+                }      
         }
     }
 
     //********************* Subscription ************************
-    public function subscribe_to_ml($data = null, $ml_id = null)
+    public function subscribe_to_ml($data, $ml_id, $response_format = 'json')
     {
         if ($data != null && $ml_id != null){
                 //$data = array_merge($data, $this->addDefaultDataToDataToSend());
@@ -49,9 +51,11 @@ class SkMailing
                 curl_setopt($curl_handler, CURLOPT_POSTFIELDS, $fields_string);
                 $http_responder = curl_exec($curl_handler);
                 curl_close($curl_handler);
-                $http_responder = json_decode($http_responder, true);
-                //return $http_responder['status'];
-            return $http_responder;
+                if($response_format == 'json'){
+                    return $http_responder;
+                }else{
+                    return json_decode($http_responder, true);
+                }
         }
     }
 }

@@ -12,7 +12,13 @@
         "psr-4" : {"SkMailing\\" : "src"}
     },
     "minimum-stability": "stable",
-    "require": {}
+    "require": {},
+    "repositories": [
+        {
+           "type": "vcs",
+           "url": "https://github.com/andoidam/skwebapp-api.git" 
+        }
+      ]
 }
 
 
