@@ -11,6 +11,6 @@
     "autoload": {
         "psr-4" : {"mailing\\" : "src"}
     },
-    
+    "minimum-stability": "stable",
     "require": {}
 }
