@@ -8,5 +8,9 @@
             "email": "naima@gmail.com"
         }
     ],
+    "autoload": {
+        "psr-4" : {"mailing\\" : "src"}
+    },
+    
     "require": {}
 }
