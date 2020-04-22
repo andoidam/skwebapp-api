@@ -66,7 +66,6 @@ $instClass->subscribe_to_ml($data,$mailing_id));
 
 ### Problems? Please let us know
 
-If you run into any problems or issues, **please** let us know so we can address and fix them right away. You can contact us by
-Email : khiri@gmail.com
+If you run into any problems or issues, **please** let us know so we can address and fix them right away. You can contact us :smile:
 
 
