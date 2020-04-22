@@ -1,5 +1,5 @@
 
-# API - Send message & Subscribe for user
+# API - Send message & Subscribe for users
 
 
 ## Welcome to our API
@@ -11,10 +11,8 @@ Here are a few steps to use this API :
 
 * In your own project -> Create new folder
 * Open it with your editor, Go to terminal or Git Bash , 
-* Execute : 
-   
-  :point_down:
-  
+* Execute : :point_down:
+
 ```markdown
     * git init
     * composer require sk-web-app-api/skwebapp-api
