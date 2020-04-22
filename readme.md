@@ -43,17 +43,18 @@ $instClass = new \SkMailing\SkMailing();
 
 * Data to provide  : 
 
-$data['askmailconfirm'] = true;
-$data['firstname'] = "...";
-$data['lastname'] = "...";
-$data['email'] = "...";
 
-$message_id = "...";
+      * $data['askmailconfirm'] = true;
+      * $data['firstname'] = "...";
+      * $data['lastname'] = "...";
+      * $data['email'] = "...";
+  
+      * $message_id = "...";
+      * $mailing_id= "...";
 
-$mailing_id= "...";
+      * $response_format = 'json';// json or array , default 'json'
 
-// json or array
-$response_format = 'json';//default json
+
 
 ### Call functions : 
 
